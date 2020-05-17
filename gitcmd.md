@@ -15,3 +15,9 @@ git reset --hard c7cc795{切换到id头为c7cc795的版本}
 git reset head test.txt  {把暂存区里的文件撤销掉，从新放回工作区}
 git checkout -- text.txt  {把工作区里的文件撤销掉}
 git rm text.txt  {删除掉text.txt文件}
+ssh-keygen -t rsa -C "xx@qq.com"   {生成sshkey}
+git remote add origin git@github.com:antlic/GitRepository.git   {关联本地仓库到github}
+git push -u origin master {推送所有的本地文件到远程库，初次推送的时候用}
+git push origin master {推送本地文件到远程仓库}
+git pull origin master  --allow-unrelated-histories   {获取远程仓库的文件到本地，允许两个库有不相干的历史记录也合并}
+git clone git@github.com:antlic/gitskills.git    {克隆远程仓库到本地}
