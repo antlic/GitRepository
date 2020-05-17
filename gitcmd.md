@@ -21,3 +21,9 @@ git push -u origin master {推送所有的本地文件到远程库，初次推�
 git push origin master {推送本地文件到远程仓库}
 git pull origin master  --allow-unrelated-histories   {获取远程仓库的文件到本地，允许两个库有不相干的历史记录也合并}
 git clone git@github.com:antlic/gitskills.git    {克隆远程仓库到本地}
+git branch  {查看分支}
+git branch <name>  {创建分支}
+git switch <name>   {切换分支}
+git switch -c <name>  {创建+切换分支}
+git merge  <name>   {合并某分支到当前分支}
+git branch -d <name>  {删除分支}
